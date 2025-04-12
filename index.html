@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Seaweed + Web Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <!-- 載入淡江官網的 iframe -->
+    <iframe id="tku-iframe" src="https://www.tku.edu.tw/" width="100%" height="100%" style="border:none;" target="_blank"></iframe>
+    
+    <!-- 網頁內容 -->
+    <div id="content">
+      <h1>Welcome to Tamkang Vibes 🌊</h1>
+      <p>Scroll around, click buttons, enjoy the seaweed 🐠</p>
+
+      <!-- 可點擊的按鈕：跳轉至淡江官網 -->
+      <a href="https://www.tku.edu.tw/" target="_blank">
+        <button>點我！進入淡江官網</button>
+      </a>
+    </div>
+  </body>
+</html>
